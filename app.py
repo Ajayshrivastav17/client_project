@@ -4,7 +4,7 @@ from config import API_KEY
 client = OpenAI(api_key=API_KEY)
 
 response = client.responses.create(
-    model="gpt-5.5",
+    model="gpt-oss-20b",
     input="Say Hello!"
 )
 
